@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eğitim UI</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row justify-content-center p-0">
+        <div class="col-md-6">
+            <div class="box-container">
+                <div class="movie-content-box">
+                    <div class="col-md-12">
+                        <label for="enterID" class="">Enter ID : </label>
+                        <input type="text" class="form-control" id="enterID" placeholder="ID">
+                        <input type="submit" class="w-100 red-btn" value="Get Movies" onclick="getMovies()">
+
+                        <hr>
+
+                        <ol id="box1" class="list-group">
+                            <!--
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div class="name-data">
+                                    <div class="movie-name">Content for list item</div>
+                                    <div class="special-date">23.22.2222</div>
+                                </div>
+                                <div class="movie-categories">
+                                    <span class="badge special-badge">Comedy</span>
+                                    <span class="badge special-badge">Children's</span>
+                                </div>
+                            </li>
+                            -->
+                        </ol>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
